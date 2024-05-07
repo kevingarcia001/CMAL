@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Login</title>
-</head>
+<?php 
+include '../template/header.php';
+?>
 <body>
   <div class="wrapper">
     <div class="container main">
@@ -28,8 +22,8 @@
                    
                    <header>Iniciar Sesión</header>
                    <?php 
-                        include "./model/conexion.model.php";
-                        include "./controller/login.controller.php";
+                        // include "./models/conexion.php";
+                        // include "./controllers/login.controller.php";
                         ?>
                    <div class="input-field">
                         <input type="text" class="input" name="correo"  id="email" autocomplete="off">
@@ -53,5 +47,6 @@
         </div>
     </div>
 </div>
-</body>
-</html>
+<?php 
+include '../template/footer.php'
+?>
