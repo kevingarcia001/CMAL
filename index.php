@@ -21,8 +21,8 @@
         <div class="card mb-4">
           <img src="./assets/img/mision/celebracion2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title"> Participaron del Carnaval "Me gusta mi escuela, me quedo en ella"</h5>
-            <p class="card-text">Estudiantes del Centro Escolar Modesto Armijo Lozano,participaron del Carnaval "Me gusta mi escuela, me quedo en ella" con el propósito de motivar la permanencia y aprobación, para la Continuidad Educativa.</p>
+            <h5 class="card-title">"Me gusta mi escuela, me quedo en ella"</h5>
+            <p class="card-text">Estudiantes del Centro Escolar Modesto Armijo Lozano,participaron del Carnaval "Me gusta mi escuela, me quedo en ella".</p>
             <a href="#" class="btn btn-primary">Leer Más</a>
           </div>
         </div>
@@ -42,7 +42,7 @@
           <img src="./assets/img/mision/donacion.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Centro educativo recibe donación de Unicef</h5>
-            <p class="card-text">Centro Educativo Modesto Armijo Lozano, ubicado en el Distrito II de Managua, el Ministerio de Educación (MINED), recibió del Fondo de las Naciones Unidas para la Infancia (UNICEF), donativo de 153 kits lúdicos en apoyo a las Consejerías de las Comunidades Educativas.</p>
+            <p class="card-text">Centro Educativo Modesto Armijo Lozano, ubicado en el Distrito II de Managua, el Ministerio de Educación (MINED) </p>
             <a href="#" class="btn btn-primary">Leer Más</a>
           </div>
         </div>
