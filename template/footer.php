@@ -25,7 +25,7 @@
         <a href="#" class="btn btn-link">Acerca de nosotros</a>
         <a href="#" class="btn btn-link">Servicios</a>
         <a href="#" class="btn btn-link">Contacto</a>
-      </div>
+      </div> 
     </div>
   </div>
 </footer>

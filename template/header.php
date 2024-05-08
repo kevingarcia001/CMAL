@@ -13,6 +13,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../style/dashboard.css">
 
 
     <title>Colegio Modesto Armijo Lozano</title>
