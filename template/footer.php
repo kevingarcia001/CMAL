@@ -4,13 +4,13 @@
     <!-- Sección de imágenes -->
     <div class="row mb-3">
       <div class="col-md-4">
-        <img src="" class="img-fluid" alt="Imagen 1">
+        <img src="./assets/img/footer/1_grun_blanco 1.png" class="img-fluid" alt="Imagen 1">
       </div>
       <div class="col-md-4">
-        <img src="" class="img-fluid" alt="Imagen 2">
+        <img src="./assets/img/footer/inatec png.png" class="img-fluid" alt="Imagen 2">
       </div>
       <div class="col-md-4">
-        <img src="" class="img-fluid" alt="Imagen 3">
+        <img src="./assets/img/footer/LOGO-CNU-2024_2.png" class="img-fluid" alt="Imagen 3">
       </div>
     </div>
     
