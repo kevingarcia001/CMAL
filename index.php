@@ -177,8 +177,8 @@
                 <img src="./assets/img/autoridades/team-1.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Josedeodo</h4>
-                <span>main jungla</span>
+                <h4>Prof. Juan García</h4>
+                <span>profesor de historia</span>
               </div>
             </div>
           </div> 
