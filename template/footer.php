@@ -4,13 +4,13 @@
     <!-- Sección de imágenes -->
     <div class="row mb-3">
       <div class="col-md-4">
-        <img src="imagen1.jpg" class="img-fluid" alt="Imagen 1">
+        <img src="" class="img-fluid" alt="Imagen 1">
       </div>
       <div class="col-md-4">
-        <img src="imagen2.jpg" class="img-fluid" alt="Imagen 2">
+        <img src="" class="img-fluid" alt="Imagen 2">
       </div>
       <div class="col-md-4">
-        <img src="imagen3.jpg" class="img-fluid" alt="Imagen 3">
+        <img src="" class="img-fluid" alt="Imagen 3">
       </div>
     </div>
     

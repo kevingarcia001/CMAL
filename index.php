@@ -11,118 +11,74 @@
     </div>
   </section>
 
-
   <section id="noticias" class="py-5">
   <div class="container">
-        <div class="section-title">
-          <h2>Noticias</h2>
-        </div>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="card mb-4">
-              <div class="card">
-                <img src="./assets/img/mision/Recurso 1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Título de la Noticia</h5>
-                <p class="card-text">Resumen corto de la noticia. Puede ser un extracto del contenido principal.</p>
-                <a href="#" class="btn btn-primary">Leer Más</a>
-            </div>
-            </div>
-
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="card mb-4">
-              <div class="card">
-                <img src="./assets/img/mision/Recurso 1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Título de la Noticia</h5>
-                <p class="card-text">Resumen corto de la noticia. Puede ser un extracto del contenido principal.</p>
-                <a href="#" class="btn btn-primary">Leer Más</a>
-            </div>
-            </div>
-              </div>
-            </div>
-            <div class="col-lg-4 d-none d-lg-block">
-              <div class="card mb-4">
-              <div class="card">
-                <img src="./assets/img/mision/Recurso 1.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                <h5 class="card-title">Título de la Noticia</h5>
-                <p class="card-text">Resumen corto de la noticia. Puede ser un extracto del contenido principal.</p>
-                <a href="#" class="btn btn-primary">Leer Más</a>
-            </div>
-            </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="card mb-4">
-                <!-- Contenido de la cuarta noticia -->
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="card mb-4">
-                <!-- Contenido de la quinta noticia -->
-              </div>
-            </div>
-            <div class="col-lg-4 d-none d-lg-block">
-              <div class="card mb-4">
-                <!-- Contenido de la sexta noticia -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Agrega más carousel-items según sea necesario para más noticias -->
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+    <div class="section-title">
+      <h2>Noticias</h2>
     </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4">
+          <img src="./assets/img/mision/Recurso 1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Título de la Noticia</h5>
+            <p class="card-text">Resumen corto de la noticia. Puede ser un extracto del contenido principal.</p>
+            <a href="#" class="btn btn-primary">Leer Más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4">
+          <img src="./assets/img/mision/Recurso 1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Título de la Noticia</h5>
+            <p class="card-text">Resumen corto de la noticia. Puede ser un extracto del contenido principal.</p>
+            <a href="#" class="btn btn-primary">Leer Más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 d-none d-lg-block">
+        <div class="card mb-4">
+          <img src="./assets/img/mision/Recurso 1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Título de la Noticia</h5>
+            <p class="card-text">Resumen corto de la noticia. Puede ser un extracto del contenido principal.</p>
+            <a href="#" class="btn btn-primary">Leer Más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
   </div>
 </section>
 
 
-  <section id="about" class="about mt-5">
-  <div class="section-title">
-          <h2 class="text-white">Nosotros</h2>
-        </div>
+
+<section id="about" class="about mt-5">
   <div class="container">
+  <div class="section-title">
+      <h2 class="text-white"> Nosostros</h2>
+    </div>
     <div class="row">
       <div class="col-lg-6 mb-4 mb-lg-0">
         <!-- Carrusel aquí -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          </ol>
+        <div id="carouselExample" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./assets/img/historia/Recurso 3.png" class="d-block w-100" alt="First slide">
+              <img src="./assets/img/historia/Recurso 3.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="./assets/img/historia/Recurso 4.png" class="d-block w-100" alt="Second slide">
+              <img src="./assets/img/historia/Recurso 4.png" class="d-block w-100" alt="...">
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
       <div class="col-lg-1"></div> <!-- Columna vacía para crear el margen -->
@@ -138,6 +94,7 @@
 </section>
 
 
+
 <!-- Misión y Visión -->
 <section id="features" class="features" data-aos="fade-up">
       <div class="container">
@@ -147,8 +104,8 @@
             <img src="./assets/img/mision/Recurso 1.png" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
-            <h2>Misión</h2>
-            <p class="fst-italic">
+            <h2 class="mision">Misión</h2>
+            <p class="parafo">
             En el Colegio Modesto Armijo Lozano, nuestra misión es brindar una educación integral de excelencia que inspire y capacite a nuestros estudiantes para alcanzar su máximo potencial académico, personal y social. Nos comprometemos a crear un ambiente de aprendizaje inclusivo, seguro y estimulante donde cada estudiante sea valorado y respetado como individuo único.
             </p>
             <ul>
@@ -163,8 +120,8 @@
             <img src="./assets/img/mision/Recurso 2.png" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
-            <h2>Visión</h2>
-            <p class="fst-italic">
+            <h2 class="vision" >Visión</h2>
+            <p class="parafo">
             En el Colegio Modesto Armijo Lozano aspiramos a ser reconocidos como un referente de excelencia educativa a nivel local, nacional e internacional. Nos visualizamos como una institución líder que se distingue por su compromiso con la innovación, la inclusión y el desarrollo integral de cada estudiante.
             </p>
             <ul>
@@ -175,6 +132,33 @@
           </div>
         </div>
 
+      </div>
+    </section>
+
+    <section id="galeria" class="container">
+      <div class="section-title">
+        <h2>Galeria</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="./assets/img/mision/Recurso 1.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="./assets/img/mision/Recurso 1.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="./assets/img/mision/Recurso 1.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="./assets/img/mision/Recurso 1.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="./assets/img/mision/Recurso 1.png" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <img src="./assets/img/mision/Recurso 1.png" alt="">
+        </div>
       </div>
     </section>
 
@@ -206,61 +190,77 @@
 
     <!--  contacto  -->
     <section id="contact" class="contact">
-      <div class="container">
+  <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Contatanos</h2>
-        </div>
+    <div class="section-title" data-aos="fade-up">
+      <h2>Contáctanos</h2>
+    </div>
 
-        <div class="row">
+    <div class="row">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="contact-about">
-            
-              <h3>Información</h3>
-              <div>
-
-                  <h3><i class="bi bi-telephone"></i>+505 5555-5555</h3>
-        <p>Telefono.</p>
-              </div>
-    <h3><i class="bi bi-people"></i> Redes Sociales</h3>
-              <h3>Redes Sociales</h3>
-            </div>
-            <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="contact-about">
+          <h3 class="info-titulo">Información</h3>
+          <div class="contact-info">
+            <i class="bi bi-telephone"></i>
+            <div class="info-text">
+              <h3>+505 5555-5555</h3>
+              <p>Teléfono</p>
             </div>
           </div>
-
-          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="nombre" placeholder="Nombre y Apelldo" required>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="correo" id="email" placeholder="Correo Electronico" required>
-              </div>
-              <div class="form-group">
-                <input type="num" class="form-control" name="telefono" id="subject" placeholder="Telefono" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+          <div class="contact-info">
+            <i class="bi bi-geo-alt"></i>
+            <div class="info-text">
+              <h3>De donde fue la estación de la ruta 163</h3>
+              <p>Dirección</p>
+            </div>
           </div>
-
+          <div class="contact-info">
+          <i class="bi bi-envelope"></i>
+            <div class="info-text">
+              <h3>armijomodesto@gmail.com</h3>
+              <p>Dirección</p>
+            </div>
+          </div>
+         
+          <h3 class="titulo-redes text-center">Redes Sociales</h3>
         </div>
-
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-whatsapp"></i></a>
+        </div>
       </div>
-    </section>
+
+      <div class="col-lg-5 col-md-12 my-4" data-aos="fade-up" data-aos-delay="300">
+        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" id="nombre" placeholder="Nombre y Apellido" required>
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="correo" id="email" placeholder="Correo Electrónico" required>
+          </div>
+          <div class="form-group">
+            <input type="num" class="form-control" name="telefono" id="subject" placeholder="Teléfono" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">¡Tu mensaje ha sido enviado! ¡Gracias!</div>
+          </div>
+          <div class="text-left"><button type="submit">Enviar</button></div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 
 
 
