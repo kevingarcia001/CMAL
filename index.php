@@ -184,31 +184,31 @@
           </div> 
          <div class="member">
               <div class="member-img">
-                <img src="./assets/img/autoridades/team-1.jpg" class="img-fluid" alt="">
+                <img src="./assets/img/autoridades/pexels-andrea-piacquadio-774909 1.png" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Josedeodo</h4>
-                <span>main jungla</span>
+                <h4>Prof. Ana López</h4>
+                <span>profesora de literatura</span>
               </div>
             </div>
           </div> 
        <div class="member">
               <div class="member-img">
-                <img src="./assets/img/autoridades/team-1.jpg" class="img-fluid" alt="">
+                <img src="./assets/img/autoridades/para_curriculum.jpg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Josedeodo</h4>
-                <span>main jungla</span>
+                <h4>Prof. Miguel Martínez</h4>
+                <span>profesor de matemáticas</span>
               </div>
             </div>
           </div> 
  <div class="member">
               <div class="member-img">
-                <img src="./assets/img/autoridades/team-1.jpg" class="img-fluid" alt="">
+                <img src="./assets/img/autoridades/images (1).jpeg" class="img-fluid" alt="">
               </div>
               <div class="member-info">
-                <h4>Josedeodo</h4>
-                <span>main jungla</span>
+                <h4>Prof. María Rodríguez</h4>
+                <span>profesora de ciencias</span>
               </div>
             </div>
           </div> 
