@@ -19,7 +19,7 @@
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="card mb-4">
-          <img src="./assets/img/mision/Recurso 1.png" class="card-img-top" alt="...">
+          <img src="./assets/img/mision/diadelpadre.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Título de la Noticia</h5>
             <p class="card-text">Resumen corto de la noticia. Puede ser un extracto del contenido principal.</p>
@@ -31,8 +31,8 @@
         <div class="card mb-4">
           <img src="./assets/img/mision/Recurso 1.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Título de la Noticia</h5>
-            <p class="card-text">Resumen corto de la noticia. Puede ser un extracto del contenido principal.</p>
+            <h5 class="card-title">Día mundial del Docente</h5>
+            <p class="card-text">Estudiantes de la Escuela Pública Primaria Modesto Armijo Lozano, celebraron el Día Mundial del Docente, cuando un 5 de octubre de 1994</p>
             <a href="#" class="btn btn-primary">Leer Más</a>
           </div>
         </div>
