@@ -18,7 +18,7 @@
     <!-- Sección de copyright y menú -->
     <div class="row">
       <div class="col-md-6">
-        <p class="text-left">&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+        <p class="text-left">&copy; 2024 Colegio Modesto Armijo Lozano. Todos los derechos reservados.</p>
       </div>
       <div class="col-md-6 text-right">
         <a href="#" class="btn btn-link">Inicio</a>
