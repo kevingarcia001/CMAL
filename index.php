@@ -32,7 +32,7 @@
           <img src="./assets/img/mision/diadelpadre.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Día mundial del Docente</h5>
-            <p class="card-text">Estudiantes de la Escuela Pública Primaria Modesto Armijo Lozano, celebraron el Día Mundial del Docente, cuando un 5 de octubre de 1994</p>
+            <p class="card-text">Estudiantes del colegio Modesto Armijo Lozano, celebraron el Día Mundial del Docente.</p>
             <a href="#" class="btn btn-primary">Leer Más</a>
           </div>
         </div>
@@ -42,7 +42,7 @@
           <img src="./assets/img/mision/donacion.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Centro educativo recibe donación de Unicef</h5>
-            <p class="card-text">Centro Educativo Modesto Armijo Lozano, ubicado en el Distrito II de Managua, el Ministerio de Educación (MINED) </p>
+            <p class="card-text">Centro Educativo Modesto Armijo Lozano, ubicado en el Distrito II de Managua, el Ministerio de Educación otorga donación de recursos academicos.</p>
             <a href="#" class="btn btn-primary">Leer Más</a>
           </div>
         </div>
