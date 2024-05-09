@@ -6,7 +6,7 @@
             <!-- Content For Sidebar -->
             <div class="h-100">
                 <div class="sidebar-logo">
-                    <a href="#">Asistehc</a>
+                    <a href="../index.php">Asistehc</a>
                 </div>
                 <ul class="sidebar-nav">
                     <li class="sidebar-item">
@@ -74,7 +74,8 @@
                             </a>
                             <div class="dropdown-menu dropdown-menu-end">
                                 <a href="#" class="dropdown-item">Profile</a>
-                               
+                                <a href="#" class="dropdown-item">Setting</a>
+                                <a href="#" class="dropdown-item">Log``</a>
                             </div>
                         </li>
                     </ul>

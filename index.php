@@ -19,40 +19,34 @@
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="card mb-4">
-          <img src="./assets/img/mision/celebracion2.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/mision/celebracion2.jpg" class="card-img-top" alt="Celebración">
           <div class="card-body">
             <h5 class="card-title">"Me gusta mi escuela, me quedo en ella"</h5>
-            <p class="card-text">Estudiantes del Centro Escolar Modesto Armijo Lozano,participaron del Carnaval "Me gusta mi escuela, me quedo en ella".</p>
-            <a href="#" class="btn btn-primary">Leer Más</a>
+            <p class="card-text">Estudiantes del Centro Escolar Modesto Armijo Lozano, participaron del Carnaval "Me gusta mi escuela, me quedo en ella".</p>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6">
         <div class="card mb-4">
-          <img src="./assets/img/mision/diadelpadre.jpg" class="card-img-top" alt="...">
+          <img src="./assets/img/mision/diadelpadre.jpg" class="card-img-top" alt="Día del Padre">
           <div class="card-body">
             <h5 class="card-title">Día mundial del Docente</h5>
             <p class="card-text">Estudiantes de la Escuela Pública Primaria Modesto Armijo Lozano, celebraron el Día Mundial del Docente, cuando un 5 de octubre de 1994</p>
-            <a href="#" class="btn btn-primary">Leer Más</a>
           </div>
         </div>
       </div>
-      <div class="col-lg-4 d-none d-lg-block">
+      <div class="col-lg-4 col-md-6">
         <div class="card mb-4">
-          <img src="./assets/img/mision/donacion.png" class="card-img-top" alt="...">
+          <img src="./assets/img/mision/donacion.png" class="card-img-top" alt="Donación">
           <div class="card-body">
             <h5 class="card-title">Centro educativo recibe donación de Unicef</h5>
-            <p class="card-text">Centro Educativo Modesto Armijo Lozano, ubicado en el Distrito II de Managua, el Ministerio de Educación (MINED) </p>
-            <a href="#" class="btn btn-primary">Leer Más</a>
+            <p class="card-text">Centro Educativo Modesto Armijo Lozano, ubicado en el Distrito II de Managua, el Ministerio de Educación (MINED)</p>
           </div>
         </div>
       </div>
     </div>
-   
   </div>
 </section>
-
-
 
 <section id="about" class="about mt-5">
   <div class="container">
@@ -142,81 +136,74 @@
 
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <img src="./assets/img/mision/Recurso 1.png" alt="">
+          <img src="./assets/img/galeria/img2.jpg" alt="">
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <img src="./assets/img/mision/Recurso 1.png" alt="">
+          <img src="./assets/img/galeria/img3.jpg" alt="">
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <img src="./assets/img/mision/Recurso 1.png" alt="">
+          <img src="./assets/img/galeria/img4.jpg" alt="">
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <img src="./assets/img/mision/Recurso 1.png" alt="">
+          <img src="./assets/img/galeria/img5.jpg" alt="">
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <img src="./assets/img/mision/Recurso 1.png" alt="">
+          <img src="./assets/img/galeria/img7.jpg" alt="">
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <img src="./assets/img/mision/Recurso 1.png" alt="">
+          <img src="./assets/img/galeria/img6.jpg" alt="">
         </div>
       </div>
     </section>
 
 <!-- Autoridades-->
-<section id="team" class="team ">
-      <div class="container">
+<section id="team" class="team">
+    <div class="container">
 
         <div class="section-title">
-          <h2 class="text-white">Autoridades</h2>
+            <h2 class="text-white">Autoridades</h2>
         </div>
 
-        <div class="row">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/autoridades/team-1.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Prof. Juan García</h4>
-                <span>profesor de historia</span>
-              </div>
+        <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="./assets/img/autoridades/team-1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Prof. Juan García</h4>
+                        <span>Profesor de historia</span>
+                    </div>
+                </div>
             </div>
-          </div> 
-         <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/autoridades/pexels-andrea-piacquadio-774909 1.png" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Prof. Ana López</h4>
-                <span>profesora de literatura</span>
-              </div>
+            
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="./assets/img/autoridades/team-1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Prof. Juan García</h4>
+                        <span>Profesor de historia</span>
+                    </div>
+                </div>
             </div>
-          </div> 
-       <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/autoridades/para_curriculum.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Prof. Miguel Martínez</h4>
-                <span>profesor de matemáticas</span>
-              </div>
-            </div>
-          </div> 
- <div class="member">
-              <div class="member-img">
-                <img src="./assets/img/autoridades/images (1).jpeg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4>Prof. María Rodríguez</h4>
-                <span>profesora de ciencias</span>
-              </div>
-            </div>
-          </div> 
 
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="./assets/img/autoridades/team-1.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Prof. Juan García</h4>
+                        <span>Profesor de historia</span>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</section>
 
-      </div>
-    </section>
 
     <!--  contacto  -->
     <section id="contact" class="contact">
@@ -228,6 +215,7 @@
 
     <div class="row">
 
+      <!-- Columna de redes sociales -->
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="contact-about">
           <h3 class="info-titulo">Información</h3>
@@ -246,16 +234,15 @@
             </div>
           </div>
           <div class="contact-info">
-          <i class="bi bi-envelope"></i>
+            <i class="bi bi-envelope"></i>
             <div class="info-text">
               <h3>armijomodesto@gmail.com</h3>
               <p>Dirección</p>
             </div>
           </div>
-         
-          <h3 class="titulo-redes text-center">Redes Sociales</h3>
         </div>
         <div class="social-links">
+          <h3 class="titulo-redes text-center">Redes Sociales</h3>
           <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
@@ -263,7 +250,8 @@
         </div>
       </div>
 
-      <div class="col-lg-5 col-md-12 my-4" data-aos="fade-up" data-aos-delay="300">
+      <!-- Columna del formulario -->
+      <div class="col-lg-8 col-md-6 my-4" data-aos="fade-up" data-aos-delay="300">
         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
           <div class="form-group">
             <input type="text" name="name" class="form-control" id="nombre" placeholder="Nombre y Apellido" required>
@@ -290,6 +278,7 @@
 
   </div>
 </section>
+
 
 
 

@@ -24,9 +24,8 @@
 <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">CMAL</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  
+      <a href="index.html" class="logo"><img src="../assets/img/insignia_Mesa de trabajo 1.png" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
         <ul>

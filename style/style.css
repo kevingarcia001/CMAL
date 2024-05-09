@@ -744,3 +744,19 @@ section {
   border: 5px solid #f7f7f7;
 }
 
+.card-img-top {
+  max-height: 200px; 
+  object-fit: cover;
+}
+
+.features .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo img {
+  max-width: 200px ; 
+  height: auto;
+}
+
+
