@@ -1,5 +1,5 @@
 <?php 
-include '../template/header.php';
+include '../include/cdn.boostrap.php';
 ?>
 <body>
   <div class="wrapper">
@@ -33,20 +33,9 @@ include '../template/header.php';
                         <input type="password" class="input" id="pass" name="contrasena" >
                         <label for="pass">Contraseña</label>
                     </div> 
-                   <div class="input-field">
-                        
-                        <input name="ingresar" type="submit" class="submit" value="Ingresar">
-                   </div> 
-                   <div class="signin">
-                    <span><a href="#">
-                      
-                    </a></span>
-                   </div>
+                    <a href="./dashboard.php" class="btn btn-primary btn-block">Enviar</a>
                 </div>  
             </form>
         </div>
     </div>
 </div>
-<?php 
-include '../template/footer.php'
-?>

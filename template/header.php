@@ -25,7 +25,8 @@
     <div class="container d-flex align-items-center justify-content-between">
 
   
-      <a href="index.html" class="logo"><img src="../assets/img/insignia_Mesa de trabajo 1.png" alt="" class="img-fluid"></a>
+      <a href="index.html" class="navbar-brand">
+        <img src="../assets/img/insignia_Mesa de trabajo 1.png" alt="" class="icono"></a>
 
       <nav id="navbar" class="navbar">
         <ul>

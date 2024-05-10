@@ -7,7 +7,7 @@
     <div class="container position-relative">
       <h1>!Bienvenidos¡</h1>
       <h2>Centro Educativo Modesto Armijo Lozano.</h2>
-      <a href="./views/dashboard.php" class="btn-get-started scrollto">Inicia Sesión</a>
+      <a href="./views/login.php" class="btn-get-started scrollto">Inicia Sesión</a>
     </div>
   </section>
 
