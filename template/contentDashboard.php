@@ -37,9 +37,9 @@
                                         <td>García Moncada</td>
                                         <td>Presente</td>
                                         <td>
-                                        <i class="bi bi-eye"></i>
-                                        <i class="bi bi-pencil-square" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" ></i>
-                                        <i class="bi bi-trash" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" ></i>
+                                        <i class="bi bi-eye text-primary fs-3"></i>
+                                        <i class="bi bi-pencil-square text-success fs-3"  type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar" ></i>
+                                        <i class="bi bi-trash text-danger fs-3" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" ></i>
                                         </td>
                                        
 
@@ -50,9 +50,9 @@
                                         <td>Thornton</td>
                                         <td>Ausente</td>
                                         <td>
-                                        <i class="bi bi-eye"></i>
-                                        <i class="bi bi-pencil-square" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
-                                        <i class="bi bi-trash"type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" ></i>
+                                        <i class="bi bi-eye text-primary fs-3"></i>
+                                        <i class="bi bi-pencil-square text-success fs-3" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar"></i>
+                                        <i class="bi bi-trash text-danger fs-3"type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" ></i>
                                         </td>
                                     </tr>
                                     <tr>
@@ -61,9 +61,9 @@
                                         <td >Larry the Bird</td>
                                         <td>Justificado</td>
                                         <td>
-                                        <i class="bi bi-eye"></i>
-                                        <i class="bi bi-pencil-square" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
-                                        <i class="bi bi-trash" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i>
+                                        <i class="bi bi-eye text-primary fs-3"></i>
+                                        <i class="bi bi-pencil-square text-success fs-3" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#editar"></i>
+                                        <i class="bi bi-trash text-danger fs-3" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i>
                                         </td>
                                     </tr>
                                    
@@ -76,67 +76,20 @@
                 <!-- Button trigger modal -->
 
 
-                <!-- Modal -->
+                <!-- Agregar -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar Alumno</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <div class="modal-header bg-primary">
+                        <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Agregar Alumno</h1>
+                        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                       <div class="container">
-                        <form>
-                            <div class="row">
-                                <!-- Columna izquierda -->
-                                <div class="col-md-6">
-                                    <!-- Input 1 -->
-                                    <div class="form-group">
-                                        <label for="input1">Primer Nombre</label>
-                                        <input type="text" class="form-control" id="input1" placeholder="Primer Nombre">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="input1">Primer Apellido</label>
-                                        <input type="text" class="form-control" id="input1" placeholder="Primer Apellido">
-                                    </div>
-                                   
-                                    <!-- Input 2 (select) -->
-                                    <div class="form-group">
-                                        <label for="input2">Sexo</label>
-                                        <select class="form-control" id="input2">
-                                            <option>Masculino</option>
-                                            <option>Femenino</option>
-
-                                        </select>
-                                    </div>
-                                    <!-- Input 3 -->
-                                    <div class="form-group">
-                                        <label for="input3">Telefono</label>
-                                        <input type="text" class="form-control" id="input3" placeholder="Telefono">
-                                    </div>
-                                </div>
-                                <!-- Columna derecha -->
-                                <div class="col-md-6">
-                                <div class="form-group">
-                                        <label for="input2">Segundo Nombre</label>
-                                        <input type="text" class="form-control" id="input2" placeholder="Segundo Nombre">
-                                    </div>
-                                    <!-- Input 4 -->
-                                    <div class="form-group">
-                                        <label for="input4">Segundo Apellido</label>
-                                        <input type="text" class="form-control" id="input4" placeholder="Segundo Apellido">
-                                    </div>
-                                    <!-- Input 5 (select) -->
-                                   
-                                    <div class="form-group">
-                                        <label for="input6">Fecha de Nacimiento</label>
-                                        <input type="text" class="form-control" id="input6" placeholder="Fecha de Nacimiento">
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                        </form>
-                        </div>
+                      <?php
+                        include "../views/crudAlumno/agregar.php"
+                        ?>
+                     </div>
 
                       </div>
                       <div class="modal-footer">
@@ -147,13 +100,37 @@
                   </div>
                 </div>
 
+                <!-- Modal -->
+                <div class="modal fade" id="editar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header bg-success">
+                        <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Editar Alumno</h1>
+                        <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <div class="container">
+                      <?php
+                        include "../views/crudAlumno/editar.php"
+                        ?>
+                     </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-success">Guardar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 <!-- Delete -->
                 <!-- Modal -->
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   <div class="modal-dialog">
                     <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Eliminar Alumno</h1>
+                      <div class="modal-header bg-danger">
+                        <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Eliminar Alumno</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
@@ -161,7 +138,7 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                        <button type="button" class="btn btn-primary">Eliminar</button>
+                        <button type="button" class="btn btn-danger">Eliminar</button>
                       </div>
                     </div>
                   </div>
