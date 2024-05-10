@@ -16,10 +16,5 @@ class estado_asistencia {
         $this-> Estado ;
     }
 
-    // Método para obtener todos los estados
-    public static function obtenerTodosLosEstados() {
-       
-    }
-
 }
 ?>

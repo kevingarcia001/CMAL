@@ -91,32 +91,8 @@ class docentes {
         $this->Cedula = $Cedula;
     }
 
-    
 
-    // Método para insertar un nuevo docente en la base de datos
-    public function insertarDocente() {
-        // Aquí iría tu código para insertar los datos en la base de datos
-    }
-
-    // Método para actualizar los datos de un docente en la base de datos
-    public function actualizarDocente($id) {
-        // Aquí iría tu código para actualizar los datos en la base de datos
-    }
-
-    // Método para eliminar un docente de la base de datos
-    public static function eliminarDocente($id) {
-        // Aquí iría tu código para eliminar los datos de la base de datos
-    }
-
-    // Método para obtener todos los docentes de la base de datos
-    public static function obtenerTodosLosDocentes() {
-        // Aquí iría tu código para obtener los datos de la base de datos
-    }
-
-    // Método para obtener un docente por su ID de la base de datos
-    public static function obtenerDocentePorId($id) {
-        // Aquí iría tu código para obtener los datos de la base de datos
-    }
+   
 }
 
 

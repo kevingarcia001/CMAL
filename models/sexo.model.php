@@ -16,10 +16,6 @@ class sexo {
         $this-> sexo ;
     }
 
-    // Método para obtener todos los sexo
-    public static function obtenerTodoslosSexo() {
-       
-    }
 
 }
 ?>

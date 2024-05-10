@@ -16,10 +16,7 @@ class asignaturas{
         $this-> Nombre_Asignatura;
     }
 
-    // Método para obtener todas las asignaturas
-    public static function obtenerTodasAsiganturas() {
-       
-    }
+
 
 }
 ?>

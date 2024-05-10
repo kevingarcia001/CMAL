@@ -64,31 +64,6 @@ class alumnos {
         $this->Fecha_Nacimiento = $Fecha_Nacimiento;
     }
 
-
-    public function insertarPersona() {
-        
-      
-    }
-
-    // Método para actualizar los datos de una persona en la base de datos
-    public function actualizarPersona($id) {
-       
-    }
-
-    // Método para eliminar una persona de la base de datos
-    public static function eliminarPersona($id) {
-       
-    }
-
-    // Método para obtener todas las personas de la base de datos
-    public static function obtenerTodasLasPersonas() {
-       
-    }
-
-    // Método para obtener una persona por su ID de la base de datos
-    public static function obtenerPersonaPorId($id) {
-       
-    }
 }
 
 

@@ -1,6 +1,6 @@
 <?php
 
-$conexion = new mysqli("localhost", "root", "admin123", "usuarios" );
+$conexion = new mysqli("localhost", "root", "admin123", "asistech" );
 
 // Verificar la conexión
 if ($conexion->connect_error) {

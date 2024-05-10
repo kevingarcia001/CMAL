@@ -16,10 +16,6 @@ class anioacademico {
         $this-> Anio_Academico ;
     }
 
-    // Método para obtener todos los turno
-    public static function obtenerTodosAnios() {
-       
-    }
 
 }
 ?>

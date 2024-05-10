@@ -16,11 +16,6 @@ class turnos {
         $this-> Turno;
     }
 
-    // Método para obtener todos los turno
-    public static function obtenerTodosTurno() {
-       
-    }
 
-    
 }
 ?>
