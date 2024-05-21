@@ -1,20 +1,24 @@
 <?php
 
-class asignaturas{
 
-    private $Nombre_Asignatura;
+include_once "../models/db.model.php";
+
+class Asignaturas{
+
+    private $conexion;
 
 
-    public function __construct($Nombre_Asignatura) {
-        $this->Nombre_Asignatura = $Nombre_Asignatura;
+    public function __construct() {
+        $this->conexion =  new conexion();
     }
 
-    public function getAsignatura(){
-        $this-> Nombre_Asignatura ;
+    public function read(){
+        $consulta = "select * from Asignaturas;";
+        return $this-> conexion->consultar($consulta);
     }
-    public function setAsignatura($Nombre_Asignatura){
-        $this-> Nombre_Asignatura;
-    }
+    // public function setAsignatura($Nombre_Asignatura){
+    //     $this-> Nombre_Asignatura;
+    // }
 
 
 

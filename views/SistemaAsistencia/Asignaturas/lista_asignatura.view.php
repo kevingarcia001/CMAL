@@ -1,3 +1,7 @@
+<?php
+include_once "../models/asignatura.model.php";
+?>
+
 
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -25,9 +29,7 @@
             
             <div class="card">
               <div class="card-header ">
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg">
-                 Agregar
-                </button>
+              <?php    include_once "../views/SistemaAsistencia/Asignaturas/agregar/agregar.php"; ?>
               </div>
               <!-- /.card-header -->
               <div class="card-body ">
@@ -40,16 +42,27 @@
                   </tr>
                   </thead>
                   <tbody>
+                    <?php 
+                    
+                      $objetoAsignatura = new Asignaturas();
+                      $Asignaturas = $objetoAsignatura->read();
+
+                      while($asignatura = mysqli_fetch_array($Asignaturas)){
+
+
+                      
+                    ?>
                   <tr>
-                    <td>Matemáticas</td>
-                    <td>asfdsfdsfdsfdsdsfd
-                    </td>
+                    <td><?= $asignatura['Id_Asignaturas ']; ?></td>
+                    <td><?= $asignatura['Nombre_Asignatura ']; ?></td>
+                    <td><?= $asignatura['Descripcion_Asignatura ']; ?></td>
                     <td>
                       <a href=""><i class="btn fa-solid fa-eye bg-primary"></i></ion-icon></a>
                       <a data-toggle="modal" data-target="#modal-lg-edit"><i class=" btn fa-solid fa-pen-to-square bg-success"></i></a>
                       <a href="" ><i class="btn fa-solid fa-trash bg-danger"></i></a>
                     </td>
                   </tr>
+                  <?php } ?>
                   </tbody>
                   <!-- <tfoot>
                   <tr>
@@ -76,29 +89,6 @@
   </div>
 
 
-  <div class="modal fade" id="modal-lg">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header bg-primary">
-              <h4 class="modal-title">Agregar Asignatura</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <?php
-              include '../views/SistemaAsistencia/Asignaturas/agregar/agregar.php'
-              ?>
-            </div>
-            <div class="modal-footer justify-content-between">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-          <!-- /.modal-content -->
-        </div>
-        <!-- /.modal-dialog -->
-      </div>
       <!-- Edit -->
   <div class="modal fade" id="modal-lg-edit">
         <div class="modal-dialog modal-lg">
