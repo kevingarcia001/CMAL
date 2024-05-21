@@ -28,7 +28,7 @@ include_once "../models/asignatura.model.php";
           <div class="col-12">
             
             <div class="card">
-              <div class="card-header ">
+              <div class="card-header" style="background-color: #001f3f;">
               <?php    include_once "../views/SistemaAsistencia/Asignaturas/agregar/agregar.php"; ?>
               </div>
               <!-- /.card-header -->

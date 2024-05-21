@@ -29,8 +29,8 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-                <table id="example1" class="table table-bordered table-striped">
-                  <thead>
+                <table id="example1" class="table table-bordered table-striped" >
+                  <thead class="text-white"  style="background-color: #001f3f;">
                   <tr>
                     <th>Rendering engine</th>
                     <th>Browser</th>
